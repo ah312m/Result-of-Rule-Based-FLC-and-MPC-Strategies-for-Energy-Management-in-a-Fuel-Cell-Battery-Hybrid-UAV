@@ -1,0 +1,45 @@
+Energy Traces Fuzzy V6 Summary
+------------------------------
+Initial SOC     : 0.3500
+Load mode       : both
+Seed            : 17
+
+Controller note : membership and surface plots added; no extra fuzzy runtime details saved.
+
+[NOMINAL]
+Final SOC                            : 0.4806
+Final Vdc                            : 11.084 V
+Hydrogen consumed                    : 23.015 g
+Load energy                          : 375.715 Wh
+Fuel cell delivered energy           : 422.926 Wh
+Battery discharge energy             : 0.000 Wh
+Battery charge energy                : 47.211 Wh
+Battery losses                       : 0.378 Wh
+Vdc MAE                              : 0.0004 V
+Vdc RMSE                             : 0.0029 V
+Vdc Max abs error                    : 0.2252 V
+Positive overshoot                   : 0.2252 V
+Fuel cell mean efficiency            : 0.5505
+Fuel cell mean abs tracking error    : 0.166 W
+Fuel cell mean fuzzy bias            : 47.225 W
+Battery max abs current              : 8.009 A
+Battery max abs C-rate               : 0.267 C
+
+[DISTURBED]
+Final SOC                            : 0.4687
+Final Vdc                            : 10.978 V
+Hydrogen consumed                    : 25.162 g
+Load energy                          : 425.536 Wh
+Fuel cell delivered energy           : 468.749 Wh
+Battery discharge energy             : 4.025 Wh
+Battery charge energy                : 47.263 Wh
+Battery losses                       : 0.562 Wh
+Vdc MAE                              : 0.0876 V
+Vdc RMSE                             : 0.2160 V
+Vdc Max abs error                    : 3.1000 V
+Positive overshoot                   : 0.3700 V
+Fuel cell mean efficiency            : 0.5584
+Fuel cell mean abs tracking error    : 3.020 W
+Fuel cell mean fuzzy bias            : 43.519 W
+Battery max abs current              : 16.127 A
+Battery max abs C-rate               : 0.538 C
