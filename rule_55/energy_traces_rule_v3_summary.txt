@@ -1,0 +1,39 @@
+Energy Traces Rule V3 Summary
+-----------------------------
+Initial SOC     : 0.5500
+Load mode       : both
+Seed            : 17
+
+[NOMINAL]
+Final SOC                            : 0.5695
+Final Vdc                            : 11.083 V
+Hydrogen consumed                    : 21.213 g
+Load energy                          : 375.715 Wh
+Fuel cell delivered energy           : 382.846 Wh
+Battery discharge energy             : 0.041 Wh
+Battery charge energy                : 7.172 Wh
+Battery losses                       : 0.008 Wh
+Vdc MAE                              : 0.0003 V
+Vdc RMSE                             : 0.0026 V
+Vdc Max abs error                    : 0.3153 V
+Fuel cell mean efficiency            : 0.5407
+Fuel cell mean abs tracking error    : 0.188 W
+Battery max abs current              : 6.511 A
+Battery max abs C-rate               : 0.217 C
+
+[DISTURBED]
+Final SOC                            : 0.5677
+Final Vdc                            : 10.973 V
+Hydrogen consumed                    : 23.505 g
+Load energy                          : 425.536 Wh
+Fuel cell delivered energy           : 432.761 Wh
+Battery discharge energy             : 14.973 Wh
+Battery charge energy                : 22.199 Wh
+Battery losses                       : 0.284 Wh
+Vdc MAE                              : 0.0662 V
+Vdc RMSE                             : 0.0819 V
+Vdc Max abs error                    : 0.4601 V
+Fuel cell mean efficiency            : 0.5514
+Fuel cell mean abs tracking error    : 3.634 W
+Battery max abs current              : 11.399 A
+Battery max abs C-rate               : 0.380 C
