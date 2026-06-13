@@ -1,0 +1,47 @@
+Improved Adaptive MPC EMS Summary
+---------------------------------
+Initial SOC     : 0.1500
+Load mode       : both
+Seed            : 17
+Np              : 18
+Candidates      : 21
+
+[NOMINAL]
+Final SOC                            : 0.2293
+Final Vdc                            : 11.097 V
+Hydrogen consumed                    : 22.155 g
+Load energy                          : 375.715 Wh
+Fuel cell delivered energy           : 403.399 Wh
+Battery discharge energy             : 0.000 Wh
+Battery charge energy                : 27.684 Wh
+Battery losses                       : 0.117 Wh
+Vdc MAE                              : 0.0004 V
+Vdc RMSE                             : 0.0013 V
+Vdc Max abs error                    : 0.1757 V
+Fuel cell mean efficiency            : 0.5456
+Fuel cell mean abs tracking error    : 2.507 W
+Battery max abs current              : 4.947 A
+Battery max abs C-rate               : 0.165 C
+MPC mean cost                        : 626.3306
+MPC mean deficit                     : 0.0155 W
+Emergency support time               : 0.0000 s
+
+[DISTURBED]
+Final SOC                            : 0.2315
+Final Vdc                            : 11.050 V
+Hydrogen consumed                    : 24.565 g
+Load energy                          : 425.536 Wh
+Fuel cell delivered energy           : 454.141 Wh
+Battery discharge energy             : 1.133 Wh
+Battery charge energy                : 29.738 Wh
+Battery losses                       : 0.214 Wh
+Vdc MAE                              : 0.0340 V
+Vdc RMSE                             : 0.0427 V
+Vdc Max abs error                    : 0.2886 V
+Fuel cell mean efficiency            : 0.5537
+Fuel cell mean abs tracking error    : 10.043 W
+Battery max abs current              : 9.512 A
+Battery max abs C-rate               : 0.317 C
+MPC mean cost                        : 1090276.6712
+MPC mean deficit                     : 6.9537 W
+Emergency support time               : 0.0000 s
